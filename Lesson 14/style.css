@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(204, 157, 248);
+    color: white;
+    font-family: sans-serif;
+}
+
+label {
+    background-color: black;
+    color: whitesmoke;
+    padding: 3px 10px 10px 10px;
+    user-select: none;
+    box-shadow: 0 0 5px 1px white;
+    cursor: pointer;
+    transition: 0.5s;
+    display: inline-block;
+}
+
+label:hover {
+    box-shadow: 0 0 5px 3px white;
+    color: white;
+
+}
+
+img {
+    transform: translateY(5px);
+    visibility: hidden;
+}
+
+input {
+    visibility: hidden;
+}
+
+input:checked+img {
+    visibility: visible;
+
+}
